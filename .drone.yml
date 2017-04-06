@@ -1,5 +1,5 @@
-build:  
-  run-tests:
+pipeline:
+  build:  
     image: node:4
     commands:
       - npm i --quiet
