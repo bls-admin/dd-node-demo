@@ -1,0 +1,6 @@
+pipeline:  
+  run-tests:
+    image: node:4
+    commands:
+      - npm i --quiet
+      - gulp
