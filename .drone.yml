@@ -1,4 +1,4 @@
-pipeline:  
+build:  
   run-tests:
     image: node:4
     commands:
