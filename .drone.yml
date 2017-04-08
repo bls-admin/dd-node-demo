@@ -1,5 +1,5 @@
-pipeline:  
-  run-tests:
+pipeline:
+  build:
     image: node:6.3.0
     commands:
       - npm install
