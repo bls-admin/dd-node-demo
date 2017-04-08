@@ -1,6 +1,6 @@
-pipeline:
-  build:  
-    image: node:4
+pipeline:  
+  run-tests:
+    image: node:6.3.0
     commands:
-      - npm install
+      - cd ./api && npm i --quiet
       - gulp
