@@ -2,5 +2,5 @@ pipeline:
   run-tests:
     image: node:6.3.0
     commands:
-      - cd ./api && npm i --quiet
+      - npm install
       - gulp
