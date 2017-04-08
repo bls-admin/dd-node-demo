@@ -2,5 +2,5 @@ pipeline:
   build:  
     image: node:4
     commands:
-      - npm i --quiet
+      - npm install
       - gulp
