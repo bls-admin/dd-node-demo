@@ -1,6 +1,7 @@
 pipeline:
   build:
-    image: https://hub.docker.com/_/node/node:6.3.0
+    image: node:6.3.0
     commands:
+      - npm config set https//registry.npmjs.org/
       - npm install
       - gulp
