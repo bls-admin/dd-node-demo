@@ -1,7 +1,6 @@
 pipeline:
-  build:
+  run-tests:
     image: node:6.3.0
     commands:
-      - npm config set https//registry.npmjs.org/
       - npm install
       - gulp

@@ -2,3 +2,4 @@ node_modules
 coverage
 .sonar
 demo.txt
+sonar-project.properties
