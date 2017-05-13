@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: node:6.3.0
+    image: https://hub.docker.com/_/node/node:6.3.0
     commands:
       - npm install
       - gulp
